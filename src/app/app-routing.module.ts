@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { EquationsComponent } from './component/chapters/equations/equations.component';
-import { FunctionsComponent } from './component/chapters/functions/functions.component';
-import { AnalysisComponent } from './component/chapters/analysis/analysis.component';
-import { AnalyticGeometryComponent } from './component/chapters/analytic-geometry/analytic-geometry.component';
-import { GoniometryComponent } from './component/chapters/goniometry/goniometry.component';
-import { TrigonometryComponent } from './component/chapters/trigonometry/trigonometry.component';
-import { ComplexNumbersComponent } from './component/chapters/complex-numbers/complex-numbers.component';
-import { LimitsComponent } from './component/chapters/limits/limits.component';
-import { DifferentialCalculusComponent } from './component/chapters/differential-calculus/differential-calculus.component';
-import { IntegralCalculusComponent } from './component/chapters/integral-calculus/integral-calculus.component';
+import { EquationsComponent } from './components/chapters/equations/equations.component';
+import { FunctionsComponent } from './components/chapters/functions/functions.component';
+import { AnalysisComponent } from './components/chapters/analysis/analysis.component';
+import { AnalyticGeometryComponent } from './components/chapters/analytic-geometry/analytic-geometry.component';
+import { GoniometryComponent } from './components/chapters/goniometry/goniometry.component';
+import { TrigonometryComponent } from './components/chapters/trigonometry/trigonometry.component';
+import { ComplexNumbersComponent } from './components/chapters/complex-numbers/complex-numbers.component';
+import { LimitsComponent } from './components/chapters/limits/limits.component';
+import { DifferentialCalculusComponent } from './components/chapters/differential-calculus/differential-calculus.component';
+import { IntegralCalculusComponent } from './components/chapters/integral-calculus/integral-calculus.component';
 
 const routes: Routes = [
   {path: 'eqz', component: EquationsComponent},
