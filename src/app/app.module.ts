@@ -17,6 +17,7 @@ import { ComplexNumbersComponent } from './components/chapters/complex-numbers/c
 import { LimitsComponent } from './components/chapters/limits/limits.component';
 import { DifferentialCalculusComponent } from './components/chapters/differential-calculus/differential-calculus.component';
 import { IntegralCalculusComponent } from './components/chapters/integral-calculus/integral-calculus.component';
+import { MainPageComponent } from './components/main-page/main-page.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { IntegralCalculusComponent } from './components/chapters/integral-calcul
     DifferentialCalculusComponent,
     IntegralCalculusComponent,
     FunctionsComponent,
-    AnalyticGeometryComponent
+    AnalyticGeometryComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
